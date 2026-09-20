@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/collections")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://jar-of-things-frontend.onrender.com")
 public class CollectionController {
 
     private final CollectionService collectionService;
